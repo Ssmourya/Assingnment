@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 200vh;
+    background-color: #E3D5C5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-box{
+    width: 80%;
+    height: 165vh;
+    border-radius: 20px;
+    margin-top: 10%;
+    background-color: white;
+}
+.nav{
+    width: 100%;
+    height: 8vh;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-decoration: none;
+}
+.nav ul{
+    list-style: none;
+    margin-left: 10px;
+    display: flex;
+}
+.nav ul li{
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.nav h2{
+    margin-left: 15%;
+    font-family: "Pathway Gothic One", sans-serif;
+}
+.nav h2 em{
+    font-style: normal;
+    color: #FF540A;
+}
+.nav span{
+    width: 45%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: right;
+    /* flex-direction: row; */
+}
+.img1{
+    width: 7%;
+    height: 4vh;
+    background-image: url(./icons8-search-64.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.img2{
+    width: 6%;
+    height: 4vh;
+    background-size: 70%;
+    background-image: url(./icons8-heart-50.png);
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    margin-inline: 5px;
+}
+.img3{
+    width: 7%;
+    height: 4vh;
+    background-image: url(./icons8-shopping-cart-64.png);
+    background-size: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: 20px ;
+    
+}
+.img4{
+    width: 7%;
+    height: 4vh;
+    background-image: url(./icons8-person-64.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin-inline: 5px;
+
+}
+.header{
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    align-items: center;
+}
+.sofa{
+    width: 65%;
+    height: 65vh;
+    background-image:linear-gradient(to top, rgba(151, 149, 149, 0.108),rgba(255, 255, 255, 0.108), rgba(109, 107, 107, 0.555)), url(./sofa-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.sofa span{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.lightning{
+    width: 8%;
+    height: 7vh;
+    background-color: #9E9E9E;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lightning img{
+    width: 60%;
+}
+.sofa span h2{
+    color: white;
+    font-weight: 100;
+}
+.chair-box{
+    width: 95%;
+    height: 12vh;
+    margin-top: 40%;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(39, 37, 37, 0.313);
+    backdrop-filter:blur(40px);
+    display: flex;
+    align-items: center;
+}
+.chair{
+    width: 9%;
+    height: 8vh;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-image: url(./chair.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chair-box span h2{
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.chair-box span h2 em{
+    font-size: 0.8em;
+    font-style: normal;
+}
+.left-arrow{
+    width: 9%;
+    height: 7vh;
+    border-radius: 50px;
+    border: 2px solid gray;
+    background-image: url(./icons8-back-32.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right-arrow{
+    width: 9%;
+    height: 7vh;
+    border-radius: 50px;
+    border: 2px solid gray;
+    background-image: url(./icons8-forward-32.png);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.chair-box h3{
+    color: rgb(219, 219, 219);
+    font-weight: 100;
+    margin-inline: 5px;
+}
+.cast-light{
+    width: 38%;
+    height: 65vh;
+    background-image: linear-gradient(to top, rgba(156, 155, 155, 0.126) 0, rgba(134, 134, 134, 0.116) 40%, rgba(175, 175, 175, 0.271) 100%), url(./Cast\ Lights\ –\ Minimalissimo\ -\ Minimalism\ in\ Design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.cast-light span{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.color1{
+    width: 7%;
+    height: 4vh;
+    background-color: #888783;
+    border-radius: 50px;
+    border: 2px solid #E4E4E4;
+
+}
+.color2{
+    width: 7%;
+    height: 4vh;
+    background-color: #353535;
+    border-radius: 50px;
+    margin-left: -10px;
+    border: 2px solid #E4E4E4;
+}
+.color3{
+    width: 7%;
+    height: 4vh;
+    background-color: #9D5F27;
+    border-radius: 50px;
+    margin-left: -10px;
+    border: 2px solid #E4E4E4;
+}
+.cast-light span:last-child{
+    margin-top: 80%;
+}
+
+.cast-light h4{
+    margin-top: 10px;
+    margin-right: 20%;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+.cast-light h4 em{
+    font-style: normal;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.cast-light button{
+    width: 40%;
+    height: 8vh;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+}
+.cast-light button em{
+    font-style: normal;
+    color: gray;
+}
+.popular{
+    width: 95%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 8%;
+
+}
+.popular span{
+    width: 100%;
+    height: 8vh;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+   
+}
+.popular span h4{
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 80px;
+}
+.popular span button{
+    border-radius: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+}
+.popular span button:nth-last-child(1){
+    width: 8%;
+    height: 5vh;
+}
+.popular span button:nth-last-child(2){
+    width: 7%;
+    height: 5vh;
+}
+.popular span button:nth-last-child(3){
+    width: 13%;
+    height: 5vh;
+}
+.popular span button:nth-last-child(4){
+    width: 10%;
+    height: 5vh;
+}
+.popular span button:nth-last-child(5){
+    background-color: black;
+    color: white;
+    width: 9%;
+    height: 5vh;
+}
+.popular span button:nth-last-child(6){
+    width: 14%;
+    height: 5vh;
+    margin-left: 150px;
+}
+.products{
+    width: 98%;
+    display: flex;
+}
+.laptop {
+    width: 28%;
+    height: 50vh;
+    /* background-color: #dbd9d9; */
+    margin-left: 20px;
+}
+.heart{
+    width: 15%;
+    height: 6vh;
+    padding-top: 20px;
+    margin-left: 220px;
+    border-radius: 50px;
+    background-color: white;
+    background-image: url(./icons8-heart-50.png);
+    background-size: 20px, 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heart-p{
+    width: 15%;
+    height: 6vh;
+    padding-top: 20px;
+    margin-left: 220px;
+    border-radius: 50px;
+    background-color: white;
+    background-image: url(./icons8-heart-50\ \(1\).png);
+    background-size: 20px, 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.laptop-img{
+    width: 100%;
+    height: 40vh;
+    padding-top: 10px;
+    background-image:linear-gradient(rgba(122, 121, 121, 0.175),rgba(122, 121, 121, 0.175),rgba(122, 121, 121, 0.175)), url(./product.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px, 400px;
+    border-radius: 20px;
+}
+.laptop h2{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.laptop p{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.laptop p em{
+    font-style: normal;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.buds {
+    width: 28%;
+    height: 50vh;
+    /* background-color: #dbd9d9; */
+    margin-left: 20px;
+}
+.buds-img{
+    width: 100%;
+    height: 40vh;
+    padding-top: 10px;
+    background-image:linear-gradient(rgba(122, 121, 121, 0.175),rgba(122, 121, 121, 0.175),rgba(122, 121, 121, 0.175)), url(./buds.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+}
+.buds h2{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.buds p{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.buds p em{
+    font-style: normal;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.playstation {
+    width: 28%;
+    height: 50vh;
+    /* background-color: #dbd9d9; */
+    margin-left: 20px;
+}
+.playstation-img{
+    width: 100%;
+    height: 40vh;
+    padding-top: 10px;
+    background-image:linear-gradient(rgba(122, 121, 121, 0.175),rgba(122, 121, 121, 0.175),rgba(122, 121, 121, 0.175)), url(./playstations.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.playstation h2{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.playstation p{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.playstation p em{
+    font-style: normal;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.watch {
+    width: 28%;
+    height: 50vh;
+    /* background-color: #dbd9d9; */
+    margin-left: 20px;
+}
+.watch-img{
+    width: 100%;
+    height: 40vh;
+    padding-top: 10px;
+    background-image:linear-gradient(rgba(122, 121, 121, 0.175),rgba(122, 121, 121, 0.175),rgba(122, 121, 121, 0.175)), url(./watch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.watch h2{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.watch p{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.watch p em{
+    font-style: normal;
+    font-size: 0.8em;
+    color: gray;
+}
+.footer{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.footer p{
+    font-size: 1.2em;
+    color: gray;
+}
+.footer button{
+    width: 20%;
+    height: 5vh;
+    background-color: #FF540A;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+}

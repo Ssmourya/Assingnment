@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 165vh;
+    padding-top: 8%;
+    /* background-color: #dedddc; */
+    background-image: radial-gradient(#E9E0DC,#e2d5d0,#fafafa);
+
+}
+.container-box{
+    width: 90%;
+    height: 145vh;
+    margin-left: 5%;
+    border-radius: 30px;
+    /* background-color: #E9E0DC; */
+    background-image: radial-gradient(#E9E0DC,#e2d5d0,#fafafa);
+}
+.line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav span{
+    width:18%;
+    display: flex;
+    align-items: center;
+}
+.nav span img{
+    width: 15%;
+    margin-left: 20px;
+}
+.nav span h1{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    padding-inline: 10px;
+}
+.nav span:last-child{
+    width: 30%;
+    display: flex;
+}
+.nav button{
+    width: 35%;
+    height: 5vh;
+    font-size: 1em;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    margin-left: 35%;
+}
+.menu{
+    width: 9%;
+    height: 5vh;
+    margin-right: 5px;
+    background-color: black;
+    background-image: url(./icons8-menu-32.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px,30px;
+    border-radius: 50px;
+}
+.img1{
+    width: 9%;
+    height: 5vh;
+    border-radius: 50px;
+    background-image: url(./08837d4a1f8a2aaf760c7cb5c4532c7e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.center h1{
+    font-size: 3.5em;
+    margin-top: 10%;
+    font-weight: 400;
+    margin-left: 10%;
+}
+.center p{
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 12%;
+}
+.boxes{
+    width: 92%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+.boxes p{
+    font-size: 0.8em;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.boxes p em{
+    font-style: normal;
+    color: gray;
+}
+.box{
+    width: 35%;
+    height: 40vh ;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #F4EFED;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.box span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;    
+}
+.box1{
+    width: 35%;
+    height: 50vh ;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #F4EFED;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.box1 span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;    
+}
+.box2{
+    width: 35%;
+    height: 40vh ;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #F4EFED;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.box2 span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+}
+.img2{
+    width: 15%;
+    height: 7vh;
+    border-radius: 10px;
+    margin-block: 20px;
+    background-color: #D4B3A7;
+    background-image: url(./icons8-car-50.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px,32px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.img3{
+    width: 15%;
+    height: 7vh;
+    border-radius: 10px;
+    margin-block: 20px;
+    background-color: #D4B3A7;
+    background-image: url(./icons8-knight-shield-50.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px,32px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+.img4{
+    width: 15%;
+    height: 7vh;
+    border-radius: 10px;
+    margin-block: 20px;
+    background-color: #D4B3A7;
+    background-image: url(./icons8-truck-30.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px,32px;
+    margin-right: 5px;
+    margin-top: 30px;
+
+}
+.fire{
+    width: 12%;
+    height: 6vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+    background-image: url(./icons8-fire-24.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px,24px;
+    margin-right: 5px;
+}
+.water{
+    width: 12%;
+    height: 6vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+    background-image: url(./icons8-water-32.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px,24px;
+
+}
+.spark{
+    width: 12%;
+    height: 6vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+    background-image: url(./icons8-starburst-shape-24.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px,24px;
+    margin-right: 5px;
+}
+.robber{
+    width: 12%;
+    height: 6vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+    background-image: url(./icons8-black-ski-mask-50.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px,24px;
+    margin-left: 5px;
+}
+.leftarrw{
+    width: 5%;
+    height: 7vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    background-image: url(./icons8-left-30.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px,24px;
+    margin-right: 10px;
+}
+.rightarrw{
+    width: 5%;
+    height: 7vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    background-image: url(./icons8-right-30.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px,24px;
+    margin-left: 10px;
+}
+.footer{
+    width: 35%;
+    display: flex;
+    background-color:white;
+    border-radius:20px ;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.img5{
+    width: 25%;
+    height: 13vh;
+    margin-block: 6px;
+    margin-left: 6px;
+    border-radius: 20px;
+    background-image: url(house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-block: 10px;
+    margin-left: 5px;
+}
+.hom p{
+    line-height: 20px;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.hom h6{
+    font-size: 0.8em;
+    color: gray;
+    font-weight: 400;
+}
+
+.arrw{
+    width: 8%;
+    height: 5vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    background-image: url(./icons8-up-left-32.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px,24px;
+    margin-left: 25%;
+    margin-top: 12%;
+}
+.footer-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.end{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-right: 20px;
+    margin-top: 10%;
+}
+
+.end p{
+    margin-top: 20px;
+    text-align: center;
+}
+.end p em{
+    color: gray;
+    font-style: normal;
+}
+
+.photo{
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.photo h5{
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+.photo img{
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    border-radius: 50%;
+}
+.photo img:last-child{
+    width: 20px;
+    height: 18px;
+    margin-left: 20px;
+}

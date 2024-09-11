@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+    
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 3%;
+    padding-top: 6%;
+}
+.header h1{
+    display: flex;
+    text-align: left;
+    margin-right:25%;
+    font-size: 2.2em;
+}
+.header h1 em{
+    font-style: normal;
+    color: gray;
+}
+.nav{
+    width: 50%;
+}
+.nav a{
+    padding-inline: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(131, 130, 130);
+}
+.header button{
+    width: 8%;
+    height: 6vh;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 20px;
+    font-size: large;
+    color: black;
+    background-color: white;
+}
+hr{
+    width: 90%;
+    margin-left: 80px;
+}
+.container{
+    width: 95%;
+    height: 135vh;
+    margin-left: 40px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* flex-direction: row; */
+}
+.left{
+    width: 40%;
+    height: 125vh;
+    margin-top: 5%;
+    /* background-color: rgb(220, 217, 217); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.left h1{
+    font-size: 4.3em;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+.left h1 em{
+    font-style: normal;
+    color: orange;
+    font-weight: 600;
+    font-family: "Albert Sans", sans-serif;
+
+}
+.left button{
+    width: 20%;
+    height: 5vh;
+    margin-left: 50px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+.rating{
+    width:100%;
+    margin-block: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.img1{
+    width: 6%;
+    height: 5vh;
+    background-image: url(./pexels-danxavier-1239291.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+    border: 1px solid rgb(169, 169, 169);
+}
+.img2{
+    width: 6%;
+    height: 5vh;
+    background-image: url(./handsome-young-male-with-tattoo-his-arm-holds-craft-bottled-beer.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+    margin-left: -10px;
+    border: 2px solid rgb(169, 169, 169);
+
+
+}
+.img3{
+    width: 6%;
+    height: 5vh;
+    background-image: url(./pexels-moose-photos-170195-1036623.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+    margin-left: -10px;
+    border: 2px solid rgb(169, 169, 169);
+
+}
+.rating span{
+    width: 40%;
+    padding-top: 6px;
+}
+.left p{
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+.left img{
+    height: 2vh;
+    margin-left: 10px;
+}
+.left h6{
+    font-size: 0.8em;
+    color: rgb(170, 170, 170);
+    margin-right: 85px;
+    margin-top: 31%;
+    line-height: 18px;
+}
+.image4{
+    width: 100%;
+    height: 14vh;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.img4{
+    width: 6%;
+    height: 5vh;
+    background-image: url(./pexels-moose-photos-170195-1036623.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+    margin-left: 40px;
+
+}
+.left h4{
+    margin-left: 10px;
+}
+.left h4 em{
+    font-style: normal;
+    color: gray;
+}
+.left hr{
+    width: 75%;
+    margin-right: 18%;
+    margin-top: 5%;
+}
+.left h2{
+    font-size: 2.5em;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+.left h2 em{
+    font-style: normal;
+    color: gray;
+    font-size: 0.6em;
+    font-weight: 100;
+    padding-bottom:40px;
+}
+.left h3{
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-right: 48%;
+}
+.left h3 em{
+    font-style: normal;
+    color: gray;
+    font-size: 0.6em;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.right{
+    width: 60%;
+    height: 125vh;
+    margin-top: 5%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.right p{
+    color: gray;
+    margin-left: 42%;
+    font-size: 1.4em;
+}
+.right span{
+    width:100%;
+    height: 10vh;
+    margin-top: 5%;
+    display: flex;
+}
+.img5{
+    width: 6.5%;
+    height: 8vh;
+    background-image: url(./icons8-call-60.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border-radius:40px;
+    border: 1px solid rgb(169, 169, 169);
+    margin-left: 45%;
+}
+.img6{
+    width: 6.5%;
+    height: 8vh;
+    background-image: url(./icons8-dining-room-40.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius:40px;
+    border: 1px solid rgb(169, 169, 169);
+    margin-left: 5px;
+}
+.right h2{
+    font-size: 1.1em;
+    margin-top: -7.5%;
+    padding-left: 49%;
+}
+.right h3{
+    font-size: 1.1em;
+    margin-left: 43%;
+    color: rgb(128, 128, 128);
+    font-weight: 400;
+}
+ .dish{
+    width: 12%;
+    height: 14vh;
+    border-radius: 50%;
+    margin-right: 45%;
+    border: 1px solid gray;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.dish h4{
+    font-size: 1.5em;
+    color: rgb(70, 69, 69);
+}
+.dish h5{
+    font-size: 1em;
+    color: gray;
+}
+
+.dish hr{
+    width: 65%;
+    margin-left: 8px;
+
+}
+.right img{
+    width: 100%;
+}
+.foot{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-right: 60%;
+}
+.foot h6{
+    font-size: 1.1em;
+    margin-left: 55px;
+    margin-top: 20px;
+    
+}
+.foot img:last-child{
+    width: 6%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+@media(max-width:1300px){
+    .img5{
+        margin-left: 40%;
+    }
+}

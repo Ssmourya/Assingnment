@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 20px 0px rgb(186, 185, 185);
+}
+.header img{
+    width: 20%;
+    height: 6vh;
+}
+.header h1{
+    display: flex;
+    text-align: left;
+    margin-right:25%;
+    font-size: 2.2em;
+}
+.header-center a{
+    padding-inline: 10px;
+    font-size: 1.2em;
+
+
+}
+.header button{
+    width: 7%;
+    height: 5vh;
+    margin-left: 20%;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.box1{
+    width: 45%;
+    height: 85vh;
+    background-color: white;
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(186, 185, 185);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+.box1 h1{
+    width: 80%;
+    height: 8vh;
+    font-size: 3.5em;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    margin-block: 10%;
+    text-align: start;
+}
+.box1 p{
+    width: 80%;
+    font-size: 1.1em;
+    margin-top: 10%;
+    align-items: center;
+    line-height: 25px;
+    color: rgb(89, 89, 89);
+}
+.box1 span{
+    width: 82%;
+    height: 10vh;
+}
+.box1 span button:first-child{
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 5vh;
+    margin-left: 10px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+}
+.box1 span button:last-child{
+    color: black;
+    font-weight: bold;
+    width: 25%;
+    height: 4vh;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.slt{
+    width: 80%;
+    height: 8vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
+}
+.slt1{
+    width: 33%;
+    height: 15vh;
+    margin-top: 10%;
+    text-align: start;
+    font-size: 0.8em;
+}
+.slt1 h4,.slt2 h4{
+    font-size: 4.2em;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+
+}
+.slt1 p, .slt2 p{
+    margin-top: -2px;
+    line-height: 20px;
+}
+.slt2{
+    width: 33%;
+    height: 15vh;
+    margin-top: 10%;
+    text-align: start;
+    font-size: 0.8em;
+}
+
+
+.box2{
+    width: 45%;
+    height: 85vh;
+    background-image: url(./gettyimages-977644628-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(186, 185, 185);
+}
+.slot1{
+    width: 40%;
+    height: 9vh;
+    margin-top: 35%;
+    margin-left: 6%;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+.slot1 p{
+    font-size: 0.9em;
+    margin-top: -20px;
+    margin-left: 10px;
+    padding-right: 40px;
+}
+.slot1 img{
+    width: 6%;
+    margin:8px 0px 0px 250px;
+}
+.slot1 h2{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.slot1 h2 button {
+    font-size: 0.4em;
+    margin-left: 130px;
+    width: 14%;
+    height: 2vh;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(3, 243, 3, 0.418);
+    color: green;
+}
+
+.slot2{
+    width: 40%;
+    height: 9vh;
+    margin-left: 6%;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.slot2 p{
+    font-size: 0.9em;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.slot2 img{
+    width: 6%;
+    margin:8px 0px 0px 250px;
+}
+.slot2 h2{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.slot2 h2 button {
+    width: 14%;
+    height: 2vh;
+    font-size: 0.4em;
+    margin-left: 110px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(207, 4, 4);
+    font-weight: bold;
+    background-color: rgba(255, 4, 4, 0.187);
+}
+.footer{
+    width: 100%;
+    height: 5vh;
+    /* margin-bottom: -30%; */
+}
+
+.footer p {
+    width: 45%;
+    color: white;
+    text-align: center;
+    margin-top: -28px;
+}
+.footer img{
+    width: 4%;
+    margin-left: 50px;
+
+}
+
+.footer img:last-child{
+    width: 20%;
+    margin-bottom: -20px;
+    
+}
